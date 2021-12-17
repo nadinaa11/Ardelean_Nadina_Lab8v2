@@ -17,5 +17,7 @@ namespace Ardelean_Nadina_Lab8v2.Data
         public DbSet<Ardelean_Nadina_Lab8v2.Models.Book> Book { get; set; }
 
         public DbSet<Ardelean_Nadina_Lab8v2.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Ardelean_Nadina_Lab8v2.Models.Category> Category { get; set; }
     }
 }
